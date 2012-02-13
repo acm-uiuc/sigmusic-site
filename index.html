@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	
+	<title></title>
+	
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/libs/modernizr.js"></script>
+	<!-- <script src="location-to-socket.io"></script> -->
+	
+</head>
+<body>
+	
+	<header>
+		<h1>SIGMusic Twitter Thingy</h1>
+	</header>
+	
+	<div role="main" id="main">
+		
+		<section id="col-seq">
+			<h3>Melody</h3>
+			<canvas id="melody" class="notes"></canvas>
+			<h3>Bass</h3>
+			<canvas id="bass" class="notes"></canvas>
+			<h3>Drums</h3>
+			<canvas id="bassdrum" class="hits"></canvas>
+			<canvas id="snare" class="hits"></canvas>
+			<canvas id="hihat" class="hits"></canvas>
+		</section>
+		
+		<section id="col-params">
+			<table id="params"></table>
+		</section>
+		
+		<section id="col-feed">
+			<div id="send-tweet">
+				
+			</div>
+			<div id="feed"></div>
+		</section>
+		
+	</div>
+	
+	<footer>
+		
+	</footer>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+	<script src="js/main.js"></script>
+		
+</body>
+</html>
