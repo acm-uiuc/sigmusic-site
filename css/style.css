@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Share|Lilita+One);
 
-/* ----aside---- */
+.logo {
+    text-align:center;
+}
 .sidebar-nav {
     position:fixed;
     background: none;
@@ -9,6 +11,7 @@
 }
 .sidebar-nav .nav-list li {
     margin: 5px 0;
+    margin-right: 15px;
 }
 .sidebar-nav .nav-list li a {
     padding: 5px 5px;
@@ -16,4 +19,7 @@
 h1 {
     font: 500% "Lilita One", "Helvetical Neue", Helvetica, Arial, sans-serif;;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+p.bigger {
+    font-size:150%;
 }
