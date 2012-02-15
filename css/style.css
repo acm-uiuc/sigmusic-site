@@ -1,13 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Share|Lilita+One);
+
 
 .logo {
     text-align:center;
+    /*border-bottom: 1px dotted rgba(0,0,0,0.2);*/
 }
 .sidebar-nav {
     position:fixed;
     background: none;
     font-size: 175%;
-    font-family: "Share", "Helvetical Neue", Helvetica, Arial, sans-serif;
+    height:100%;
+    font-family: "Nixie One", "Helvetical Neue", Helvetica, Arial, sans-serif;
 }
 .sidebar-nav .nav-list li {
     margin: 5px 0;
@@ -16,9 +18,39 @@
 .sidebar-nav .nav-list li a {
     padding: 5px 5px;
 }
+.container {
+    background: white;
+    border: 1px solid #333;
+    border-radius:3px;
+}
 h1 {
-    font: 500% "Lilita One", "Helvetical Neue", Helvetica, Arial, sans-serif;;
+    font: 450% "Nixie One", "Helvetical Neue", Helvetica, Arial, sans-serif;;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    border-bottom: 1px dotted rgba(0,0,0,0.2);
+    margin: 5px 0;
+}
+h2 {
+    font: 250% "Nixie One", "Helvetical Neue", Helvetica, Arial, sans-serif;;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    margin:5px 0;
+}
+@media (max-width: 768px) {
+    .sidebar-nav {
+        visibility:hidden;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    .logo {
+        max-width: 400px;
+        text-align:left;
+    }
+}
+.spaced {
+    margin-top: 50px;
 }
 p.bigger {
     font-size:150%;
