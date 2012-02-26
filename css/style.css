@@ -21,7 +21,6 @@
 .container {
     background: white;
     border: 1px solid #333;
-    border-radius:3px;
 }
 h1 {
     font: 450% "Nixie One", "Helvetical Neue", Helvetica, Arial, sans-serif;;
